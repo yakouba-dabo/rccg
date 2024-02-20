@@ -1282,9 +1282,9 @@ section span{
         - Account Avatar
             - fetched from the channels endpoint; declaring it outside the fetch so we can use it
     */
-    let channelId = "UCfR8HhkbpDAwvYxrecNg4Mg",
-	      playlistId = "PLYSqJ3BBUHqhGnPS7yQk0ss3LM58TiYSP",
-	      token = "AIzaSyDhYSYpsXM9mRvXS0KanX2emo87D17q1gw",
+    let channelId = "UCXtegboVJ1RAO3HDcrvsVfw",
+	      playlistId = "PLV0Co26UfGMo-vNTsMhQ8bi1dcSJVIMAy",
+	      token = "AIzaSyAs43eyG8qROdh6LChsCvL88yshtXFfOTY",
 	      playlistUrl =`https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&maxResults=50&playlistId=${playlistId}&key=${token}`,
 	      channelUrl = `https://youtube.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&id=${channelId}&pageToken=AIzaSyDhYSYpsXM9mRvXS0KanX2emo87D17q1gw&key=${token}`,
         container = document.querySelector(".video--container"),
